@@ -1,0 +1,83 @@
+/* ----------------------------------------------- */
+/* HEADER */
+/* ----------------------------------------------- */
+
+/* MOBILE FIRST */
+
+.main-header {
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+#menu {
+    display: none;
+    /*Hacer funcionar el checkbox: Hacer funcionar el menu hamburguesa  */
+}  
+
+/* ------------------------------- */
+/* NAVBAR */
+/* ------------------------------- */
+
+/* Yo llame aproposito muchos elementos con nav-bar asi despues la propiedad agarra varios elementos */
+/* Y con el ANIDAMIENTO agarro tambien los otros elementos */
+.nav-bar {
+    background-color: aquamarine;
+    /* display: none; */
+
+    &__nav-list { /* con & estoy diciendo que agarre ambas etiquetas.nav-bar__nav-list */
+        display: flex;
+        flex-direction: column; 
+        justify-content: center;
+        list-style-type: none;
+    }
+
+    &__nav-item { /* nav-bar__nav-item*/
+        text-align: center;
+        background-color: pink;
+    }
+
+    &__nav-link {
+        display: block;
+        background-color: purple;
+        padding: 1rem 2rem;
+        color: white;
+    }
+
+}
+
+/* ----------------------------------------- */
+/* SEARCH BAR */
+/* ----------------------------------------- */
+
+.search-bar {
+    display: flex;
+    background-color: olivedrab;
+    justify-content: space-around;
+
+    &__logo-container { /* search-bar__logo-container */
+        width: 18.75rem;
+        height: 3.75rem;
+    }
+
+    &__form-container {
+        padding: 1rem;
+        background-color: yellow ;
+    }
+
+    &__form-label {
+        background-color: orange;
+    }
+
+    &__form-search {
+        background-color: chartreuse;
+    }
+
+    &__form-submit {
+        background-color: darksalmon;
+    }
+
+    &__carrito-container {
+        flex: 0 0 3rem; /* shorthand(grow shrink basis) */
+        background-color: goldenrod;
+    }
+}

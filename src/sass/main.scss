@@ -1,6 +1,6 @@
 @use './base/resets'; /* importar el _resets.scss */
 @use './base/typography'; /* Los import tienen que estar arriba de todo */
-
+@use './layout/header' 
 
 /* Estructura 7 en 1.
 ! base -> todos los estilos de inicio
