@@ -1,28 +1,17 @@
-# Creando el proyecto Vite para el integrador
+# Nombre y apellido
 
 ```sh
-npm create vite@latest ./ -- --template vanilla
+Diana Bogado
 ```
 
-## Instalamos dependencias
+# Link de Github
 
 ```sh
-npm i
+ 
 ```
 
-## Arrancamos el servidor de desarrollo
+# Link de Netlify
 
 ```sh
-npm run dev
-```
-
-## Instalando el preprocesador de SASS
-
-```sh
-npm i sass-embedded -D
-```
-
-## Agrego el archivo 'vite.config.js'
-
-
-
+ 
+``` 

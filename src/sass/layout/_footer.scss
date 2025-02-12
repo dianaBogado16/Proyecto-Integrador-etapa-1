@@ -1,0 +1,65 @@
+/* -------------------------------------- */
+/* ----------FOOTER --------------------- */
+/* -------------------------------------- */
+
+/* MOBILE FIRST */
+
+
+    
+.foot {
+    display: flex;
+    flex-direction: column; //para que los logos y el texto se comporten como columnas
+    align-items: center;
+    background-color: grey;
+    padding: 15px; //relleno para que las cosasa que estan dentro del footer np esten tan pegadas a la pagina
+}
+
+.logos {
+    display: flex;
+    justify-content: center;
+    gap: 20px; /* Espacio entre los íconos */
+    margin-bottom: 10px; /* Espacio entre los íconos y el texto de copyright */
+}
+
+.instagram {
+    background-color: fuchsia;
+    bottom: 40px;
+    right: 40px;
+    border-radius: 50%;
+    color: white;
+    width: 55px;
+    height: 55px;
+    line-height: 65px; /* lo mismo que el alto */
+    text-align: center;
+}
+
+.facebook {
+    background-color: blue;
+    bottom: 40px;
+    right: 40px;
+    border-radius: 50%;
+    color: white;
+    width: 55px;
+    height: 55px;
+    line-height: 65px; /* lo mismo que el alto */
+    text-align: center;
+}
+
+.twitter {
+    background-color: skyblue;
+    bottom: 40px;
+    right: 40px;
+    border-radius: 50%;
+    color: white;
+    width: 55px;
+    height: 55px;
+    line-height: 65px; /* lo mismo que el alto */
+    text-align: center;
+}
+
+.copy {
+    text-align: center;
+    margin-top: 10px; /* Espacio superior */
+    font-size: 14px; /* Ajusta el tamaño de fuente si es necesario */
+    color: white;
+}
