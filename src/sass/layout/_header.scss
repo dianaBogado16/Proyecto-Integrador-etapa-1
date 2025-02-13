@@ -88,14 +88,15 @@
     background-color: #10002B;
     justify-content: space-around;
     
-
     &__logo-container { /* search-bar__logo-container */
         width: 18.75rem;
         height: 3.75rem;
-        font-family: "Grechen Fuemen", serif;
+        font-family: "Archivo Black", serif;    
+        margin: auto 0;
+        text-align: center;
         color: white;
         font-size: larger;
-        font-weight: 800;
+        
  
     }
 
