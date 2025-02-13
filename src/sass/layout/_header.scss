@@ -55,13 +55,15 @@
         @media screen and (min-width: 992px) {
             & { /* Al poner & le digo que solamente cambie del 'nav-bar__navlist' las cosas qe voy a poner aca cuando la pantalla sea una computadora  */
                 flex-direction: row;
+                border: none;
             }
+            
         }
     }
 
     &__nav-item { /* nav-bar__nav-item*/
         text-align: center;
-        background-color: pink;
+        
     }
 
     &__nav-link {
@@ -72,9 +74,14 @@
         border: 1px solid #10002B;
     }
 
-    @media screen and (min-width: 992px){
+    @media screen and (min-width: 992px){ //compu
         & { /* Aca le digo que muestre en el 'nav-bar' cuando la pantalla sea pc  */
             display: block;
+        }
+
+        &__nav-link{
+            border: none;
+            text-decoration: none;
         }
     }
 

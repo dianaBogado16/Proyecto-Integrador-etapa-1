@@ -11,6 +11,8 @@
     background-color: grey;
     padding: 8px; //relleno para que las cosasa que estan dentro del footer np esten tan pegadas a la pagina
     margin-top: 40px ;
+    color: white;
+    gap: 5px;
 
     @media screen and (min-width: 992px) { //cuando la pantalla sea una computadora
         & {
@@ -33,10 +35,11 @@
     right: 40px;
     border-radius: 50%;
     color: white;
-    width: 55px;
-    height: 55px;
+    width: 50px;
+    height: 50px;
     line-height: 65px; /* lo mismo que el alto */
     text-align: center;
+    cursor: pointer;
 }
 
 .facebook {
@@ -45,10 +48,11 @@
     right: 40px;
     border-radius: 50%;
     color: white;
-    width: 55px;
-    height: 55px;
+    width: 50px;
+    height: 50px;
     line-height: 65px; /* lo mismo que el alto */
     text-align: center;
+    cursor: pointer;
 }
 
 .twitter {
@@ -57,15 +61,16 @@
     right: 40px;
     border-radius: 50%;
     color: white;
-    width: 55px;
-    height: 55px;
+    width: 50px;
+    height: 50px;
     line-height: 65px; /* lo mismo que el alto */
     text-align: center;
+    cursor: pointer;
 }
 
 .copy {
     text-align: center;
     margin-top: 10px; /* Espacio superior */
     font-size: 14px; /* Ajusta el tamaño de fuente si es necesario */
-    color: white;
+    color: black;
 }
