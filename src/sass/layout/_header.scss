@@ -69,6 +69,7 @@
         background-color: purple;
         padding: 1rem 2rem;
         color: white;
+        border: 1px solid #10002B;
     }
 
     @media screen and (min-width: 992px){
@@ -89,13 +90,17 @@
     justify-content: space-around;
     
     &__logo-container { /* search-bar__logo-container */
+        display: flex;
+        align-items: center;
+        justify-content: center;
         width: 18.75rem;
         height: 3.75rem;
-        font-family: "Archivo Black", serif;    
-        margin: auto 0;
+        font-family: "Orbitron", serif;
+        font-optical-sizing: auto;
         text-align: center;
         color: white;
         font-size: larger;
+        margin: 0; 
         
  
     }
@@ -107,16 +112,19 @@
         flex-basis: 100%; /* Le digo que use el 100% del tamaño del contenedor padre  (search-bar__form-container)*/
         /* Esto significa que cada elemento hijo ocupará el 100% del ancho del contenedor, forzando cada elemento a ocupar una línea completa. */
         justify-content: center; /* Centre los elementos */
-        border: none;
+        
     }
 
     &__form-label {
        color: white;
        padding-right: 10px;
+       font-family: "JetBrains Mono", serif;
+
     }
 
     &__form-search {
         background-color: white;
+        border: none;
     }
 
     &__form-submit {
@@ -124,6 +132,8 @@
         color: white;
         padding: 2%;
         border: none ;
+        border-radius: 4%;
+        cursor: pointer;
     }
 
     &__carrito-container {
@@ -132,6 +142,7 @@
         text-align: center;
         padding-top: 20px;
         color: white;
+        cursor: pointer;
     }
 }
 
@@ -147,11 +158,14 @@
     flex: 0 0 3rem; 
     position: relative;
     cursor: pointer; /* hacer el mouse una manito */
+    
 
     &__label {
         display: block;
         background-color: #7B2CBF;
         height: 100%;
+        cursor: pointer;
+        
     }
 
     &__top-bread,
@@ -164,10 +178,12 @@
         left: .5rem ;
         right: .5rem ;
         
+        
     }
 
     &__top-bread {
         top: .8rem;
+        
     }
 
     &__meat { /* centrar sin usar flexbox */
@@ -184,6 +200,7 @@
         & { /* menu toogle */
             /* Cuando sea una pantalla de pc, quiero que desaparezca el menu hamburguesa */
             display: none;
+            
         }
     }
 }
