@@ -13,8 +13,7 @@
 
     &:hover, 
     &:focus { /* Esta es la animacion para que se mueva la tarjeta cuando me poso encima */
-        transform: scale(1.03) skew(0) rotate(2deg); /* rotate: la roto 2 grados */
-        transform-origin: bottom; /* Le indico la direccion para donde tiene que girar */
+
         box-shadow: 0px 7px 8px 0px rgba(0,0,0,0.5);
     }
 
