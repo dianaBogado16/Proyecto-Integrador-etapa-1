@@ -3,15 +3,21 @@
 /* -------------------------------------- */
 
 /* MOBILE FIRST */
-
-
     
 .foot {
     display: flex;
     flex-direction: column; //para que los logos y el texto se comporten como columnas
     align-items: center;
     background-color: grey;
-    padding: 15px; //relleno para que las cosasa que estan dentro del footer np esten tan pegadas a la pagina
+    padding: 8px; //relleno para que las cosasa que estan dentro del footer np esten tan pegadas a la pagina
+    margin-top: 40px ;
+
+    @media screen and (min-width: 992px) { //cuando la pantalla sea una computadora
+        & {
+            padding: 20px;// agrego relleno al footer el footer
+        }
+    }
+
 }
 
 .logos {

@@ -25,7 +25,7 @@
     }
 
     &:checked ~ .search-bar .menu-toogle .menu-toogle__label {
-        background-color: red; /* Hace que la caja del menu hamburguesa se ponga rojo cuando uno lo selecciona */
+        background-color: C77DFF; /* Hace que la caja del menu hamburguesa se ponga rojo cuando uno lo selecciona */
     }
 
 
@@ -41,7 +41,7 @@
 /* Yo llame aproposito muchos elementos con nav-bar asi despues la propiedad agarra varios elementos */
 /* Y con el ANIDAMIENTO agarro tambien los otros elementos */
 .nav-bar {
-    background-color: aquamarine;
+    background-color: purple;
     /* Que no muestre el nav bar si la pantalla es un celular */
     display: none; 
 
@@ -85,8 +85,9 @@
 
 .search-bar {
     display: flex;
-    background-color: olivedrab;
+    background-color: #10002B;
     justify-content: space-around;
+    
 
     &__logo-container { /* search-bar__logo-container */
         width: 18.75rem;
@@ -95,28 +96,36 @@
 
     &__form-container {
         padding: 1rem;
-        background-color: yellow ;
+        background-color: #10002B ;
         display: flex; /* Convierto la caja de la barra de busqueda en un flexbox */
         flex-basis: 100%; /* Le digo que use el 100% del tamaño del contenedor padre  (search-bar__form-container)*/
         /* Esto significa que cada elemento hijo ocupará el 100% del ancho del contenedor, forzando cada elemento a ocupar una línea completa. */
         justify-content: center; /* Centre los elementos */
+        border: none;
     }
 
     &__form-label {
-        background-color: orange;
+       color: white;
+       padding-right: 10px;
     }
 
     &__form-search {
-        background-color: chartreuse;
+        background-color: white;
     }
 
     &__form-submit {
-        background-color: darksalmon;
+        background-color: #9D4EDD;
+        color: white;
+        padding: 2%;
+        border: none ;
     }
 
     &__carrito-container {
         flex: 0 0 3rem; /* shorthand(grow shrink basis) */
-        background-color: goldenrod;
+        background-color: #3C096C;
+        text-align: center;
+        padding-top: 20px;
+        color: white;
     }
 }
 
@@ -128,14 +137,14 @@
 .menu-toogle {
     /* Con display block le digo que muestre la cajita de hamburguesa cuando es un celular*/
     display: block;
-    background-color: red;
+    background-color: #C77DFF;
     flex: 0 0 3rem; 
     position: relative;
     cursor: pointer; /* hacer el mouse una manito */
 
     &__label {
         display: block;
-        background-color: black;
+        background-color: #7B2CBF;
         height: 100%;
     }
 
@@ -148,6 +157,7 @@
         position: absolute; /*  para poder definir la posicion */
         left: .5rem ;
         right: .5rem ;
+        
     }
 
     &__top-bread {
