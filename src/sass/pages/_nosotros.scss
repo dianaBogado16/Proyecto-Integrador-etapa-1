@@ -3,7 +3,7 @@
 
 }
 
-h1 {
+.titulo-nosotros {
     color: #10002B;
     text-align: center;
     font-size: xxx-large;
@@ -17,4 +17,24 @@ h1 {
 
 .imagen {
     text-align: center;
+}
+
+
+.logo-box {
+    border: 2px solid #7B2CBF; /* Borde negro */
+    padding: 20px; /* Espacio interno */
+    display: flex; /* Usamos Flexbox para alinear los logos */
+    justify-content: space-around; /* Espacio uniforme entre los logos */
+    align-items: center; /* Centrar verticalmente los logos */
+    background-color: #f0f0f0; /* Color de fondo */
+    width: 80%; /* Ancho de la caja */
+    margin: 0 auto; /* Centrar la caja horizontalmente */
+    margin-bottom: 30px;
+    border-radius: 10px
+}
+
+.material-icons {
+    color: #7B2CBF;
+    height: auto; /* Mantén la proporción de los logos */
+
 }

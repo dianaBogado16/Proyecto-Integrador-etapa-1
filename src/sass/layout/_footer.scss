@@ -23,6 +23,21 @@
 
 }
 
+.whatsapp {
+    background-color: #25D366;
+    position: fixed;
+    bottom: 40px;
+    right: 40px;
+    border-radius: 50%;
+    color: white;
+    width: 55px;
+    height: 55px;
+    line-height: 65px; /* lo mismo que el alto */
+    text-align: center;
+    cursor: pointer;
+
+}
+
 .seguir {
     font-family: "JetBrains Mono", serif;
     font-weight: 800;
