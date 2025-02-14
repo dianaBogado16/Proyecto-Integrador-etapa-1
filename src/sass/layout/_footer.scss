@@ -14,12 +14,19 @@
     color: white;
     gap: 5px;
 
+
     @media screen and (min-width: 992px) { //cuando la pantalla sea una computadora
         & {
             padding: 20px;// agrego relleno al footer el footer
         }
     }
 
+}
+
+.seguir {
+    font-family: "JetBrains Mono", serif;
+    font-weight: 800;
+    color: white;
 }
 
 .logos {
@@ -70,7 +77,7 @@
 
 .copy {
     text-align: center;
-    margin-top: 10px; /* Espacio superior */
-    font-size: 14px; /* Ajusta el tamaño de fuente si es necesario */
-    color: black;
+    font-size: 10px; /* Ajusta el tamaño de fuente si es necesario */
+    color: white;
+    font-weight: 400;
 }
