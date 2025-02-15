@@ -124,10 +124,7 @@
     }
 
     &__form-label {
-       color: white;
-       padding-right: 10px;
-       font-family: "JetBrains Mono", serif;
-
+        display: none;
     }
 
     &__form-search {
@@ -151,6 +148,31 @@
         padding-top: 20px;
         color: white;
         cursor: pointer;
+    }
+
+    @media screen and (min-width: 992px ){
+        &__form-search {
+            width: 300px;
+            height: 35px;
+            border-radius: 5px 0 0 5px; /* Bordes redondeados a la izquierda */
+        }
+
+        &__form-submit {
+            height: 35px;
+            border-radius: 0 5px 5px 0; /* Bordes redondeados en la derecha */
+            border: none;
+            text-align: center;
+            padding: 10px;
+        }
+
+        &__form-label {
+            display: flex;
+            align-items: center;
+            color: white;
+            padding-right: 10px;
+            font-family: "JetBrains Mono", serif;
+     
+        }
     }
 }
 
