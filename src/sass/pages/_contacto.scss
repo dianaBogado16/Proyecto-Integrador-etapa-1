@@ -10,8 +10,27 @@
     border: none;
     align-items: center; /* Centra horizontalmente los elems del fomulario */
     text-align: center;
-   color: white;
-   
+    color: white;
+    border-right: 20px solid #10002B;
+    border-left: 20px solid #10002B;
+    border-bottom: 20px solid #10002B;
+    border-top: 20px solid #10002B;
+}
+
+input:hover {
+    background-color: #C77DFF;
+}
+
+.button-enviar {
+    background-color: #9D4EDD;
+    border: none;
+    
+
+}
+
+.formulario button {
+    border-radius: 5%;
+    cursor: pointer;
 }
 
 

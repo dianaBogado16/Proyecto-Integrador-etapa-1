@@ -26,11 +26,7 @@
 
     &:checked ~ .search-bar .menu-toogle .menu-toogle__label {
         background-color: C77DFF; /* Hace que la caja del menu hamburguesa se ponga rojo cuando uno lo selecciona */
-    }
-
-
-
-      
+    }      
       
 }  
 
@@ -85,7 +81,14 @@
             border: none;
             text-decoration: none;
             font-weight: 600;
+            
         }
+
+        &__nav-link:hover{
+            text-shadow: 4px 4px 4px rgba(0, 0, 0, 1);
+        }
+
+
     }
 
 }
@@ -107,8 +110,7 @@
         font-optical-sizing: auto;
         color: white;
         font-size: 35px;
-        margin-left: 10px;
-        
+        margin-left: 30px;
     }
 
     &__form-container {

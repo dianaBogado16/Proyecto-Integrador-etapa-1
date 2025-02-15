@@ -10,7 +10,8 @@ export default {
     build: { /* Agregamos eso por el tema del multipage: cuando tenemos varias ventanas(otros html disponibles) para que no me apareciera luego pagina not found cuando lo subo a vite */
         rollupOptions: {
             input: resolve(__dirname, 'index.html'), /* va a buscar el archivo index y lo tiene en cuenta */
-            contacto: resolve (__dirname, 'contacto.html')
+            contacto: resolve (__dirname, 'contacto.html'), 
+            nosotros: resolve (__dirname, 'nosotros.html')
         }
     }
 }

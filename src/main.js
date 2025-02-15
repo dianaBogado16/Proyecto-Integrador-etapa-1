@@ -174,3 +174,5 @@ const start3 = () => {
 //                          evento        | callback
 window.addEventListener('DOMContentLoaded', start3) /* se dispara cuando todo el html fue leido (cargado) */
 
+
+
