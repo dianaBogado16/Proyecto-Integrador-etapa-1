@@ -2,7 +2,7 @@ const productos = [
     { 
       id: 1, 
       nombre: "Iphone 11 Pro Max", 
-      foto: "imgs/iphone11-rojo.avif", 
+      foto: "imgs/iphone11-rojo.webp", 
       descripcion: "Iphone 11 pro max. Pantalla: Super Retina XDR OLED de 6.5 pulgadas. Memoria RAM: 4GB. Batería: 3969 mAh con carga rápida (18W) .", 
       precio: 222.20
     },
@@ -17,7 +17,7 @@ const productos = [
     { 
       id: 3, 
       nombre: "Samsung S24 Ultra", 
-      foto: "imgs/s24.jpg", 
+      foto: "imgs/s24.webp", 
       descripcion: "Pantalla:6.8 pulgadas con resolución QHD. Memoria RAM: 12GB. Resistencia al agua: Certificación IP68.", 
       precio: 333.30
     },
@@ -32,7 +32,7 @@ const productos = [
     { 
       id: 5, 
       nombre: "Auriculares Samsung Galaxy Bud", 
-      foto: "imgs/auris-bud.avif", 
+      foto: "imgs/auris-bud.webp", 
       descripcion: "Conectividad: Bluetooth 5.0 con conexión múltiple. Micrófonos: 2 micrófonos externos y 1 interno. Cancelación de ruido, resistencia IPX2, compatibilidad con Android e iOS", 
       precio: 666.60
     },
@@ -48,7 +48,7 @@ const productos = [
     { 
       id: 7, 
       nombre: "Auriculares Bose", 
-      foto: "imgs/auris-bose.jpg", 
+      foto: "imgs/auris-bose.webp", 
       descripcion: "Cancelación de ruido: Activa, con tres niveles de ajuste. Conectividad: Bluetooth y cable. Batería: Hasta 20 horas de duración en modo inalámbrico. ", 
       precio: 660.60
     } ,
