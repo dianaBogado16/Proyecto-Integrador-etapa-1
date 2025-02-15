@@ -1,5 +1,25 @@
 .formulario {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 50px;
+    background-color: #240046;
+    padding: 50px; /* Añadir un poco de espacio interno */
+    width: 500px; /* Ancho del contenedor */
+    margin: 0 auto; 
+    border: none;
+    align-items: center; /* Centra horizontalmente los elems del fomulario */
+    text-align: center;
+   color: white;
+   
+}
 
+
+
+.formulario input, .formulario textarea, .formulario button {
+    width: 100%; /* Asegura que los campos de entrada y el botón ocupen todo el ancho del contenedor */
+    padding: 10px;
+    box-sizing: border-box; /* Incluye el padding en el ancho total */
 }
 
 .titulo-contacto {
