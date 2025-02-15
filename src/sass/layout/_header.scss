@@ -34,11 +34,10 @@
 /* NAVBAR */
 /* ------------------------------- */
 
-/* Yo llame aproposito muchos elementos con nav-bar asi despues la propiedad agarra varios elementos */
-/* Y con el ANIDAMIENTO agarro tambien los otros elementos */
+
 .nav-bar {
     background-color: purple;
-    /* Que no muestre el nav bar si la pantalla es un celular */
+   
     display: none; 
 
     /* La barra que contiene el inicio-alta-nosotros-contacto */
@@ -73,7 +72,7 @@
     }
 
     @media screen and (min-width: 992px){ //compu
-        & { /* Aca le digo que muestre en el 'nav-bar' cuando la pantalla sea pc  */
+        & {
             display: block;
         }
 
@@ -117,14 +116,13 @@
     &__logo-container:hover {
         transform: scale(1.2); /* Aumenta el tamaño al pasar el cursor */
     }
-    
+
     &__form-container {
         padding: 1rem;
         background-color: #10002B ;
-        display: flex; /* Convierto la caja de la barra de busqueda en un flexbox */
-        flex-basis: 100%; /* Le digo que use el 100% del tamaño del contenedor padre  (search-bar__form-container)*/
-        /* Esto significa que cada elemento hijo ocupará el 100% del ancho del contenedor, forzando cada elemento a ocupar una línea completa. */
-        justify-content: center; /* Centre los elementos */
+        display: flex; 
+        flex-basis: 100%; 
+        justify-content: center;
         
     }
 

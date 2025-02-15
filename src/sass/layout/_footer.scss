@@ -6,16 +6,16 @@
     
 .foot {
     display: flex;
-    flex-direction: column; //para que los logos y el texto se comporten como columnas
+    flex-direction: column; 
     align-items: center;
     background-color: grey;
-    padding: 8px; //relleno para que las cosasa que estan dentro del footer np esten tan pegadas a la pagina
+    padding: 8px; 
     margin-top: 40px ;
     color: white;
     gap: 5px;
 
 
-    @media screen and (min-width: 992px) { //cuando la pantalla sea una computadora
+    @media screen and (min-width: 992px) { 
         & {
             padding: 2px;// agrego relleno al footer el footer
         }
@@ -85,14 +85,14 @@
     color: white;
     width: 50px;
     height: 50px;
-    line-height: 65px; /* lo mismo que el alto */
+    line-height: 65px;
     text-align: center;
     cursor: pointer;
 }
 
 .copy {
     text-align: center;
-    font-size: 10px; /* Ajusta el tamaño de fuente si es necesario */
+    font-size: 10px;
     color: white;
     font-weight: 400;
 }
