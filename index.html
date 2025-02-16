@@ -1,20 +1,26 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="es">
   <head>
-
     <title>Proyecto Integrador - Inicio</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" >
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+      integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
 
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Archivo+Black&family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&family=Orbitron:wght@400..900&display=swap" rel="stylesheet">
-
-
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Archivo+Black&family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&family=Orbitron:wght@400..900&display=swap"
+      rel="stylesheet"
+    />
   </head>
+  
   <body>
-
     <header class="main-header">
-      <input type="checkbox" id="menu">
+      <input type="checkbox" id="menu" />
 
       <nav class="nav-bar">
         <ul class="nav-bar__nav-list">
@@ -32,58 +38,58 @@
             <a href="./contacto.html" class="nav-bar__nav-link">Contacto</a>
           </li>
         </ul>
-      </nav> <!-- .nav-bar -->
+      </nav>
+      <!-- .nav-bar -->
 
       <div class="search-bar">
-        <div class="search-bar__logo-container"> 
+        <div class="search-bar__logo-container">
           TecnoBaires<i class="fa-solid fa-bag-shopping"></i>
         </div>
         <form action="#" class="search-bar__form-container">
           <label for="busqueda" class="search-bar__form-label">Buscar</label>
-          <input type="search" id="busqueda" class="search-bar__form-search">
+          <input type="search" id="busqueda" class="search-bar__form-search" />
           <button type="submit" class="search-bar__form-submit">Buscar</button>
         </form>
-        <div class="search-bar__carrito-container"><i class="fa-solid fa-cart-arrow-down fa-2x1"></i></div>
+        <div class="search-bar__carrito-container">
+          <i class="fa-solid fa-cart-arrow-down fa-2x1"></i>
+        </div>
         <div class="menu-toogle">
           <label for="menu" class="menu-toogle__label">
             <span class="menu-toogle__top-bread"></span>
             <span class="menu-toogle__meat"></span>
             <span class="menu-toogle__bottom-bread"></span>
           </label>
-        </div> <!-- .menu-toogle -->
-      </div> <!-- .search-bar -->
-
+        </div>
+        <!-- .menu-toogle -->
+      </div>
+      <!-- .search-bar -->
     </header>
 
     <main>
       <section class="section-cards">
         <header class="section-cards__header">
-          <h1>Más vendidos de esta semana en tecnologia </h1>
+          <h1>Más vendidos de esta semana en tecnologia</h1>
           <p>Se encontraron 8 productos</p>
         </header>
       </section>
 
-      <div class="cards-container" id="container-productos"></div> <!-- Se va a terminar completando con la lista de productos en el main.js -->  
-      
+      <div class="cards-container" id="container-productos"></div>
+      <!-- Se va a terminar completando con la lista de productos en el main.js -->
     </main>
 
-
-    <div class="whatsapp" >
+    <div class="whatsapp">
       <i class="fa-brands fa-whatsapp fa-2x"></i>
     </div>
 
-
     <footer class="foot">
-    
-      <div class="seguir" >
+      <div class="seguir">
         <p>Seguinos en nuestras redes sociales!</p>
       </div>
 
       <div class="logos">
-      
         <div class="instagram">
           <i class="fa-brands fa-instagram fa-2x"></i>
-        </div>  
+        </div>
 
         <div class="facebook">
           <i class="fa-brands fa-facebook fa-2x"></i>
@@ -92,14 +98,11 @@
         <div class="twitter">
           <i class="fa-brands fa-twitter fa-2x"></i>
         </div>
-          
-      </div><!-- logos -->
-      
+      </div>
+      <!-- logos -->
+
       <p class="copy">Copyright 2025©. Designed by TecnoBaires</p>
-
     </footer>
-
-
 
     <script type="module" src="/src/main.js"></script>
   </body>
