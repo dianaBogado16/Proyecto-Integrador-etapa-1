@@ -1,17 +1,19 @@
-import { resolve } from 'path' /* node */
-// https://vite.dev/config/
-// https://vite.dev/config/shared-options.html#css-devsourcemap
-// https://vite.dev/guide/build.html#multi-page-app
+import { build } from "vite";
+import {dirname, resolve} from 'path'
+
 export default {
-    // config options
+    //config option
     css: {
-        devSourcemap: true // configuramos par ver en que línea y donde está escrita la regla css cuando estamos en inspeccionar viendo el codigo
+        devSourcemap: true
     },
-    build: { /* Agregamos eso por el tema del multipage: cuando tenemos varias ventanas(otros html disponibles) para que no me apareciera luego pagina not found cuando lo subo a vite */
+    build: {
         rollupOptions: {
-            input: resolve(__dirname, 'index.html'), /* va a buscar el archivo index y lo tiene en cuenta */
-            contacto: resolve (__dirname, 'contacto.html'), 
-            nosotros: resolve (__dirname, 'nosotros.html')
+            input: {
+                main: resolve(__dirname, 'index.html'),
+                contacto: resolve (__dirname, 'contacto.html'),
+                nosotros: resolve (__dirname, 'nosotros.html') 
+                 
+            }
         }
     }
 }
